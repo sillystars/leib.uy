@@ -37,12 +37,12 @@
             </li>
         </span>
         <span
-        class="animate__animated animate__fadeInUp"
-        style="webkit-animation-delay: 3.0s; animation-delay: 3.0s;">
-        <li>
-            <a href="#" on:click={handleClick}>Discord</a>
-        </li>
-    </span>
+            class="animate__animated animate__fadeInUp"
+            style="webkit-animation-delay: 3.0s; animation-delay: 3.0s;">
+            <li>
+                <a href="#" on:click={handleClick}>Discord</a>
+            </li>
+        </span>
     </ul>
 </div>
 

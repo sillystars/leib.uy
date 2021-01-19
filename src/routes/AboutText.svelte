@@ -1,4 +1,4 @@
-<div class="abinf vc hc" style="font-size: 125%">
+<div class="abinf vc hc" style="font-size: 100%">
     <p id="title">
         <span
             class="animate__animated animate__fadeInUp"
