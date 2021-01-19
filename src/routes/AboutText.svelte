@@ -1,45 +1,29 @@
-<div class="vc hc">
+<div class="abinf vc hc" style="font-size: 125%">
     <p id="title">
         <span
-            class="animate__animated animate__fadeIn"
+            class="animate__animated animate__fadeInUp"
             style="webkit-animation-delay: 0.5s; animation-delay: 0.5s;"
-            >My name is Martin.</span
+            >Whats up?</span
         > <br /><br />
         <span
-            class="animate__animated animate__fadeIn"
+            class="animate__animated animate__fadeInUp"
             style="webkit-animation-delay: 1.0s; animation-delay: 1.0s;"
-            >I'm a web developer, and <a
-                href="https://soundcloud.com/sillystars"
-                target="_blank">music producer</a
-            >
-            from
-            <a
-                href="https://en.wikipedia.org/wiki/Piri%C3%A1polis"
-                target="_blank">Piriápolis, Uruguay</a
-            >.</span
-        >
-        <br /><br />
+            >I'm Martin - and as I said on the home page - I'm a 15 year old web
+            developer and artist from Uruguay.</span
+        > <br /><br />
         <span
-            class="animate__animated animate__fadeIn"
+            class="animate__animated animate__fadeInUp"
             style="webkit-animation-delay: 1.5s; animation-delay: 1.5s;"
-            >I make cool stuff, sometimes on my own, sometimes with my friend
-            Nino over at
-            <a href="https://www.mitosis.me" target="_blank">Mitosis Studio</a
-            ></span
-        >.
-    </p>
-
-    <p id="text">
+            >I'm a self-motivated person and I've taught myself everything I
+            know about coding today.</span
+        > <br /><br />
         <span
-            class="animate__animated animate__fadeIn"
-            style="webkit-animation-delay: 2.0s; animation-delay: 2.0s;">
-            <a href="/works">Check what I've done</a>.</span
-        >
-        <br />
-        <span
-            class="animate__animated animate__fadeIn"
-            style="webkit-animation-delay: 2.5s; animation-delay: 2.5s;">
-            <a href="/contact">Contact me</a>.</span
+            class="animate__animated animate__fadeInUp"
+            style="webkit-animation-delay: 2.0s; animation-delay: 2.0s;"
+            >I can speak fluently three languages: Spanish (which is my main
+            language), English and Portuguese, so, if you have a project, or
+            want to work with me, feel free to <a href="/contact">contact me</a> in any of these three
+            languages! 🙂</span
         >
     </p>
 </div>
@@ -49,8 +33,16 @@
         font-family: "Roboto Condensed", sans-serif;
     }
 
+    .abinf {
+        width: 75%;
+    }
+
     .bg-dark {
         background-color: #0d0f11 !important;
+    }
+
+    #title {
+        text-align: center;
     }
 
     a {

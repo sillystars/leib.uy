@@ -1,5 +1,5 @@
 <footer>
-    Powered by Svelte, served by Vercel, using Bootstrap & Google Fonts.
+    Powered by Svelte, running on Vercel, using Bootstrap & Google Fonts.
 </footer>
 
 <style>

@@ -1,6 +1,6 @@
 <script>
     import Navbar from "./Navbar.svelte";
-    import WorkingText from "./WorkingText.svelte";
+    import AboutText from "./AboutText.svelte";
     import Footer from "./Footer.svelte";
 </script>
 
@@ -31,5 +31,5 @@
 </svelte:head>
 
 <Navbar />
-<WorkingText />
+<AboutText />
 <Footer />

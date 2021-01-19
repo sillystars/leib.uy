@@ -2,39 +2,48 @@
     const handleClick = () => alert("martin#0009");
 </script>
 
-<div class="vc hc">
-    <form name="contact" method="POST" data-netlify="true">
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputName">Name</label>
-                <input
-                    type="name"
-                    class="form-control"
-                    id="inputName4"
-                    placeholder="John Doe"
-                />
-            </div>
-            <div class="form-group col-md-6">
-                <label for="inputEmail">Email</label>
-                <input
-                    type="email"
-                    class="form-control"
-                    id="inputEmail4"
-                    placeholder="doe@gmail.com"
-                />
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="inputSubject">Address</label>
-            <input
-                type="text"
-                class="form-control"
-                id="inputSubject"
-                placeholder="Something very cool"
-            />
-        </div>
-        <button type="submit" class="btn btn-primary">Send!</button>
-    </form>
+<div class="vc hc" style="font-size: 125%">
+    <span
+        class="animate__animated animate__fadeInUp"
+        style="webkit-animation-delay: 0.5s; animation-delay: 0.5s;"
+        >You can contact me <a href="mailto:m@mitosis.me">through email</a
+        >!</span
+    > <br /><br />
+    <span
+        class="animate__animated animate__fadeInUp"
+        style="webkit-animation-delay: 1.0s; animation-delay: 1.0s;"
+        >You can also find me on:</span
+    > <br /><br />
+    <ul>
+        <span
+            class="animate__animated animate__fadeInUp"
+            style="webkit-animation-delay: 1.5s; animation-delay: 1.5s;">
+            <li>
+                <a href="https://instagram.com/s1llystars">Instagram</a>
+            </li>
+        </span>
+        <span
+            class="animate__animated animate__fadeInUp"
+            style="webkit-animation-delay: 2.0s; animation-delay: 2.0s;">
+            <li>
+                <a href="https://twitter.com/s1llystars">Twitter</a>
+            </li>
+        </span>
+        <span
+            class="animate__animated animate__fadeInUp"
+            style="webkit-animation-delay: 2.5s; animation-delay: 2.5s;">
+            <li>
+                <a href="https://github.com/sillystars">Github</a>
+            </li>
+        </span>
+        <span
+        class="animate__animated animate__fadeInUp"
+        style="webkit-animation-delay: 3.0s; animation-delay: 3.0s;">
+        <li>
+            <a href="#" on:click={handleClick}>Discord</a>
+        </li>
+    </span>
+    </ul>
 </div>
 
 <style>

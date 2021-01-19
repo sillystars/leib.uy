@@ -1,11 +1,6 @@
-<div class="vc hc">
+<div class="vc hc" style="font-size: 125%">
     <p id="title">
-        <span>
-            Oops... I haven't got there yet.</span
-        > <br /><br />
-        <span>
-            I'm still working on this page!
-        </span>
+        <span class="animate__animated animate__fadeInUp" style="webkit-animation-delay: 0.5s; animation-delay: 0.5s;"> Coming soon.</span>
     </p>
 </div>
 
