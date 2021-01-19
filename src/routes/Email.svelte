@@ -9,41 +9,27 @@
         >You can contact me <a href="mailto:m@mitosis.me">through email</a
         >!</span
     > <br /><br />
+
     <span
         class="animate__animated animate__fadeInUp"
-        style="webkit-animation-delay: 1.0s; animation-delay: 1.0s;"
-        >You can also find me on:</span
-    > <br /><br />
-    <ul>
-        <span
-            class="animate__animated animate__fadeInUp"
-            style="webkit-animation-delay: 1.5s; animation-delay: 1.5s;">
-            <li>
-                <a href="https://instagram.com/s1llystars">Instagram</a>
-            </li>
-        </span>
-        <span
-            class="animate__animated animate__fadeInUp"
-            style="webkit-animation-delay: 2.0s; animation-delay: 2.0s;">
-            <li>
-                <a href="https://twitter.com/s1llystars">Twitter</a>
-            </li>
-        </span>
-        <span
-            class="animate__animated animate__fadeInUp"
-            style="webkit-animation-delay: 2.5s; animation-delay: 2.5s;">
-            <li>
-                <a href="https://github.com/sillystars">Github</a>
-            </li>
-        </span>
-        <span
-            class="animate__animated animate__fadeInUp"
-            style="webkit-animation-delay: 3.0s; animation-delay: 3.0s;">
-            <li>
-                <a href="#" on:click={handleClick}>Discord</a>
-            </li>
-        </span>
-    </ul>
+        style="webkit-animation-delay: 1.0s; animation-delay: 1.0s;">
+        <a href="https://instagram.com/s1llystars"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+    </span>
+    <span
+        class="animate__animated animate__fadeInUp"
+        style="webkit-animation-delay: 1.5s; animation-delay: 1.5s;">
+        <a href="https://twitter.com/s1llystars"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+    </span>
+    <span
+        class="animate__animated animate__fadeInUp"
+        style="webkit-animation-delay: 2.0s; animation-delay: 2.0s;">
+        <a href="https://github.com/sillystars"><i class="fab fa-github"></i></a>
+    </span>
+    <span
+        class="animate__animated animate__fadeInUp"
+        style="webkit-animation-delay: 2.5s; animation-delay: 2.5s;">
+        <a href="#" on:click={handleClick}><i class="fab fa-discord"></i></a>
+    </span>
 </div>
 
 <style>
