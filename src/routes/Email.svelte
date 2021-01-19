@@ -1,9 +1,40 @@
+<script>
+    const handleClick = () => alert("martin#0009");
+</script>
+
 <div class="vc hc">
-    <p id="title">
-        <span>
-            m@mitosis.me</span
-        > <br /><br />
-    </p>
+    <form name="contact" method="POST" data-netlify="true">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputName">Name</label>
+                <input
+                    type="name"
+                    class="form-control"
+                    id="inputName4"
+                    placeholder="John Doe"
+                />
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputEmail">Email</label>
+                <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail4"
+                    placeholder="doe@gmail.com"
+                />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputSubject">Address</label>
+            <input
+                type="text"
+                class="form-control"
+                id="inputSubject"
+                placeholder="Something very cool"
+            />
+        </div>
+        <button type="submit" class="btn btn-primary">Send!</button>
+    </form>
 </div>
 
 <style>
@@ -11,6 +42,14 @@
         font-family: "Roboto Condensed", sans-serif;
     }
 
+    .btn-primary {
+        background-color: #7700ff63 !important;
+        border-color: #7700ff63 !important;
+    }
+    .btn-primary:hover {
+        background-color: #7700ff63 !important;
+        border-color: #7700ff63 !important;
+    }
     .bg-dark {
         background-color: #0d0f11 !important;
     }
