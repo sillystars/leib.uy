@@ -12,22 +12,22 @@
 
     <span
         class="animate__animated animate__fadeInUp"
-        style="webkit-animation-delay: 1.0s; animation-delay: 1.0s;">
+        style="webkit-animation-delay: 0.8s; animation-delay: 1.0s;">
         <a href="https://instagram.com/s1llystars"><i class="fab fa-instagram" aria-hidden="true"></i></a>
     </span>
     <span
         class="animate__animated animate__fadeInUp"
-        style="webkit-animation-delay: 1.5s; animation-delay: 1.5s;">
+        style="webkit-animation-delay: 1.1s; animation-delay: 1.5s;">
         <a href="https://twitter.com/s1llystars"><i class="fab fa-twitter" aria-hidden="true"></i></a>
     </span>
     <span
         class="animate__animated animate__fadeInUp"
-        style="webkit-animation-delay: 2.0s; animation-delay: 2.0s;">
+        style="webkit-animation-delay: 1.4s; animation-delay: 2.0s;">
         <a href="https://github.com/sillystars"><i class="fab fa-github"></i></a>
     </span>
     <span
         class="animate__animated animate__fadeInUp"
-        style="webkit-animation-delay: 2.5s; animation-delay: 2.5s;">
+        style="webkit-animation-delay: 1.7s; animation-delay: 2.5s;">
         <a href="#" on:click={handleClick}><i class="fab fa-discord"></i></a>
     </span>
 </div>
