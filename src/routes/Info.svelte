@@ -26,7 +26,7 @@
             Nino over at
             <a href="https://www.mitosis.me" target="_blank">Mitosis Studio</a
             ></span
-        >.
+        >
     </p>
 
     <p id="text">
