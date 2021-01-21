@@ -25,7 +25,7 @@
             >I make cool stuff, sometimes on my own, sometimes with my friend
             Nino over at
             <a href="https://www.mitosis.me" target="_blank">Mitosis Studio</a
-            ></span
+            >.</span
         >
     </p>
 
